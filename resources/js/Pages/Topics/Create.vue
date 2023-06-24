@@ -92,3 +92,10 @@ button {
   cursor: pointer;
 }
 </style>
+<script>
+    import DefaultLayout from '@/Layouts/DefaultLayout.vue';
+
+    export default{
+        layout: DefaultLayout
+    }
+</script>

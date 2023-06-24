@@ -94,3 +94,10 @@ const props = defineProps({
   width: 100%;
 }
 </style>
+<script>
+    import DefaultLayout from '@/Layouts/DefaultLayout.vue';
+
+    export default{
+        layout: DefaultLayout
+    }
+</script>

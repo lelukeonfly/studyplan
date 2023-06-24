@@ -40,3 +40,10 @@ const props = defineProps({
     margin: auto;
 }
 </style>
+<script>
+    import DefaultLayout from '@/Layouts/DefaultLayout.vue';
+
+    export default{
+        layout: DefaultLayout
+    }
+</script>

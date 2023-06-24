@@ -105,3 +105,10 @@ input[type="checkbox"]{
     display: none;
 }
 </style>
+<script>
+    import DefaultLayout from '@/Layouts/DefaultLayout.vue';
+
+    export default{
+        layout: DefaultLayout
+    }
+</script>

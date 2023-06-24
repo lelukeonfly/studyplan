@@ -35,3 +35,11 @@ const props = defineProps({
   text-align: center;
 }
 </style>
+
+<script>
+    import DefaultLayout from '@/Layouts/DefaultLayout.vue';
+
+    export default{
+        layout: DefaultLayout
+    }
+</script>
