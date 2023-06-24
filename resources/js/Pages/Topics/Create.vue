@@ -33,7 +33,7 @@
     const form = useForm({
         subject_id: props.subject,// ?? props.topic.subject_id,
         name: '',
-        topic_id: 0,//props.topic.id,
+        topic_id: null,//props.topic.id,
         description: ''
     })
 
